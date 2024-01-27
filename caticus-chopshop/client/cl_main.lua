@@ -396,8 +396,8 @@ local pedCreated = false -- Add this line
 CreateThread(function()
     if not pedCreated then -- Check if the ped hasn't been created yet
         exports['qb-target']:SpawnPed({
-            model = 'ig_josef',
-            coords = vector4(2339.44, 3051.93, 48.15, 273.39),
+            model = 'u_m_y_pogo_01',
+            coords = vector4(2339.95, 3132.59, 48.21, 270.34),
             minusOne = true,
             freeze = true,
             invincible = true,

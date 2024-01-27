@@ -61,7 +61,7 @@ RegisterNetEvent('caticus-chopshop:server:Reward', function(type)
             Wait(250)
         end
     elseif type == 'cash' then
-        local payout = math.random(810, 2190) -- cash payout between 810 and 2.190
+        local payout = math.random(20000, 30000) -- cash payout between 810 and 2.190
         Player.Functions.AddMoney('cash', payout, 'chopshop-reward')
     end
 end)
